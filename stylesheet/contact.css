@@ -1,0 +1,308 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.4;
+    
+}
+p{
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: #7D8A98;
+    font-size: 14px;
+
+    line-height: 1.4;
+}
+h1,h2,h3,h4,h5{
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+  
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+    width: 100%;
+}
+.start{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.upper{
+    padding: 10px 0;
+    background-color: #012D5B;
+    color: white;
+    font-size: 15px;
+}
+.lower{
+    padding: 15px 0;
+}
+.mail{
+    margin-left: 46px;
+}
+.upper p{
+    margin-left: 6px;
+    color: white;
+}
+.icons i{
+    margin-right: 20px;
+}
+.icons i:nth-child(4){
+    margin-right: 0;
+}
+
+
+.nav-bar li{
+    margin-right: 27px;
+}
+.nav-bar  li:nth-child(7){
+    margin-right: 0;
+    padding: 14px 34px;
+    background-color: #FD656B;
+    border-radius: 5px;
+    color: white;
+    
+}
+.nav-bar a{
+    text-decoration: none;
+    color: #174169;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.contact a{
+    color: white;
+    font-size: 13px;
+}
+.hero{
+    background:url(../assets/media/hero/contact_hero.jpg) center center no-repeat;
+    background-size: cover;
+    display: flex;
+ 
+   height: 300px;
+}
+.second-con{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 24px;
+   
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+h1{
+    color: white;
+    font-size: 35px;
+}
+.iframe{
+    width: 100%;
+}
+.location{
+    margin-top: 35px;
+}
+.map{
+    width: 100%;
+    background-image: linear-gradient((rgba 0 ,0,0,0.3)(rgba 0 ,0,0,0.3));
+}
+.place{
+    margin-top: 25px;
+}
+.text{
+    width: 631px;
+    height: 140px;
+}
+.date{
+    height: 29px;
+    width: 308px;
+
+}
+.mail{
+    width:308px ;
+    height: 29px;
+}
+.sub{
+    width: 631px;
+    height: 29px;
+}
+.start{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.top{
+    margin: 10px 0;
+}
+.box{
+    width: 985px;
+}
+.venue{
+    width: 300px;
+    padding: 0 14px;
+   
+    margin-top: 30px;
+}
+.venue i{
+    font-size: 38px;
+}
+.venue  h3{
+    font-size: 14px;
+}.venue p{
+    font-size: 10px;
+}
+.btn{
+    width: 100px;
+    height: 46px;
+    background-color: white;
+    border: 1px solid red;
+    color:  red;
+    display: block;
+}
+.btn a{
+    color:  red;
+    font-weight: lighter;
+}
+h2{
+    font-size: 25px;
+}
+.equal{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.address{
+    margin-top: 40px;
+    padding: 80px 0;
+    background-color: #012D5B;
+}
+.call-info{
+    width: 260px;
+
+
+}
+.call-info h4{
+    font-size: 32px;
+    color: white;
+}
+.call-info p{
+    color: white;
+    font-size: 13px;
+
+}
+.form{
+    width: 560px;
+}
+.des{
+    background-color:#012D5B ;
+    border: 0.1px solid white;
+    height: 34px;
+    width: 239px;
+    margin: 26px 5px 8px 22px;
+    border-radius: 4px;
+    padding-left: 8px;
+   
+}
+.brack{
+   margin: 16px 0 0 22px;
+   width: 317px;
+   height: 34px;
+   border: 1px solid white;
+   border-radius: 4px;
+   background-color:#012D5B ;
+   padding-left: 8px;
+}
+.form button{
+    width: 184px;
+    height: 38px;
+    background-color:#FD656B ;
+    color:  white;
+    margin-left: 18px;
+    border-radius: 4px;
+    border: 0;
+}
+.bottom{
+    padding: 80px 0;
+}
+.logo-two{
+    width: 187px;
+}
+.logo-two img{
+    width: 120px;
+}
+.log{
+    padding: 20px 0;
+
+}
+.start{
+    font-size: 24px;
+    color: #012D5B;
+}
+.pad li{
+    padding-top: 12px;
+    color: #44475A;
+}
+.copyright small{
+    color:#44475A ;
+}
+.copyright i{
+    color:  red;
+}

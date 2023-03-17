@@ -1,0 +1,436 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.4;
+    
+}
+p{
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: #7D8A98;
+    font-size: 14px;
+
+    line-height: 1.4;
+}
+h1,h2,h3,h4,h5{
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+  
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+    width: 100%;
+}
+.start{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.upper{
+    padding: 10px 0;
+    background-color: #012D5B;
+    color: white;
+    font-size: 15px;
+}
+.lower{
+    padding: 15px 0;
+}
+.mail{
+    margin-left: 46px;
+}
+.upper p{
+    margin-left: 6px;
+    color: white;
+}
+.icons i{
+    margin-right: 20px;
+}
+.icons i:nth-child(4){
+    margin-right: 0;
+}
+
+
+.nav-bar li{
+    margin-right: 27px;
+}
+.nav-bar  li:nth-child(7){
+    margin-right: 0;
+    padding: 14px 34px;
+    background-color: #FD656B;
+    border-radius: 5px;
+    color: white;
+    
+}
+.nav-bar a{
+    text-decoration: none;
+    color: #174169;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.contact a{
+    color: white;
+    font-size: 13px;
+}
+
+
+
+
+.hero{
+    background:url(../assets/media/hero/blog_hero.jpg) center center no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content:center;
+    align-content: center;
+   height: 300px;
+}
+.second-con{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 24px;
+   
+}
+
+.center{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+h1{
+    color: white;
+    font-size: 34px;
+}
+.news{
+    margin: 25px 0;
+}
+.blog-con{
+    margin-top:20px;
+    box-shadow: 1px 1px 20px 1px rgba(0,0,0,0.1 );  
+    
+}
+.headlines{
+
+    padding: 10px;
+   
+    width: 620px;
+   
+
+}
+.bg-img{
+    background:url(../assets/media/blog/blog_1.png) center center no-repeat;
+    background-size: contain;
+   
+   height:306px ;
+   position: relative;
+}
+.phone{
+    background:url(../assets/media/blog/blog_2.png) center center no-repeat;
+}
+
+
+   
+
+
+.date{
+   
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    left: 25px;
+    bottom: -26px;
+   
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 4px;
+    background-color: #FD656B;
+    line-height: 1.1;
+
+}
+h3{
+    font-size: 20px;
+}
+.date{
+    color: white;
+}
+.date p{
+    font-size:21px;
+    color: white;
+}
+.details{
+    padding: 40px 25px 0 25px;
+}
+.details p{
+    padding: 8px 0;
+    font-size: 12px;
+    padding-right: 26px;
+}
+.feedback{
+    width: 300px;
+    font-size: 12px;
+    color: #7D8A98;
+    padding: 10px 0;
+}
+.line{
+    width: 2px;
+    height: 8px;
+   background-color: red;
+   
+}
+.feedback small{
+    margin-left: 4px;
+}
+
+
+
+
+.aside{
+    margin-top: 25px;
+   
+  
+    width: 306px;
+   
+ 
+    
+}
+.up{
+    padding: 0;
+   
+
+    background-color:#F6F9FE;
+}
+.category{
+    margin-top: 30px;
+    background-color:#F6F9FE ;
+    
+}
+.side-con{
+    width: 271px;
+    padding: 24px 16px;
+   
+}
+
+
+
+
+
+.search{
+    width: 274px;
+    height: 35px;
+    border: 1px solid #E0E2E9;
+   
+}
+.magni{
+    width: 44px;
+    height: 37px;
+    background-color:#FD656B;
+    color: white;
+    
+}
+.btn{
+    border: 1px solid #FD656B;
+    width:270px;
+   
+    height: 47px;
+    margin-top: 12px;
+    background-color: white;
+    
+}
+.btn a{
+    color: red;
+}
+
+.border{
+    height: 1px;
+    width:267px;
+    margin: 0 auto;
+    background-color: #E0E2E9;
+    margin-top: 12px;
+}
+
+.category p{
+    padding-top: 27px;
+
+}
+.new-updates{
+    margin-top: 25px;
+    background-color:#F6F9FE ;
+}
+.posts h5{
+    font-size: 16px;
+    
+}
+.posts{
+    padding: 20px 0;
+}
+.posts p{
+    padding-right: 10px;
+}
+.tagged{
+    margin-top: 25px;
+    background-color:#F6F9FE ;
+}
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.clouds{
+    margin-top: 15px;
+}
+.clouds div{
+    border: 1px solid #E0E2E9;
+    text-align: center;
+   
+    height:20px ;
+    margin-top: 15px;
+
+}
+.clouds p{
+    font-size: 11px;
+    line-height: 2.1;
+}
+.bigger{
+    width: 80px;
+}
+.mini{
+    width: 75px;
+
+}
+.small{
+    width: 75px;
+}
+.ill{
+    margin-right: 94px;
+    
+}
+.feed{
+    margin-top: 25px;
+    background-color:#F6F9FE ;
+}
+
+.pictures{
+    margin-top: 15px;
+}
+.pictures img{
+    margin-top: 12px;
+    width: 29%;
+}
+.letter{
+    margin-top: 25px;
+    background-color:#F6F9FE ;
+}
+.email{
+    margin-top: 22px;
+    width: 262px;
+    height: 35px;
+    color:;
+
+}
+.page-number{
+    margin: 45px auto;
+   display: flex;
+   justify-content: center;
+    width: 300px;
+   
+    
+}
+.page-number div{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #DFE2E9;
+    margin-right: 9px;
+    color: #E0E2E9;
+    box-shadow: 1px 1px 20px 1px rgba(0,0,0,0.1 );  
+
+}
+
+
+
+.bottom{
+    padding: 80px 0;
+}
+.logo-two{
+    width: 187px;
+}
+.logo-two img{
+    width: 120px;
+}
+.log{
+    padding: 20px 0;
+
+}
+.start{
+    font-size: 24px;
+    color: #012D5B;
+}
+.pad li{
+    padding-top: 12px;
+    color: #44475A;
+}
+.copyright small{
+    color:#44475A ;
+}
+.copyright i{
+    color:  red;
+}
+.equal{
+    display: flex;
+    justify-content: space-between;
+}
